@@ -1,0 +1,4 @@
+Bundle "tpope/vim-speeddating"
+Bundle "eiginn/netrw"
+Bundle "ntpeters/vim-better-whitespace"
+Bundle "basepi/vim-conque"

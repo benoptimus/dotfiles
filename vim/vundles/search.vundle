@@ -1,0 +1,7 @@
+Bundle "Lokaltog/vim-easymotion"
+Bundle "nelstrom/vim-visual-star-search"
+Bundle "tmhedberg/matchit"
+Bundle "vim-scripts/SearchComplete"
+Bundle "terryma/vim-multiple-cursors"
+
+
