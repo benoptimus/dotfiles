@@ -1,0 +1,3 @@
+#some env var for zsh
+export USER_NAME="beny marel PAMBOU"
+export EMAIL="benymarel@gmail.com"
