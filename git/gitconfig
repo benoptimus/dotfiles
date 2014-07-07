@@ -1,0 +1,74 @@
+[color]
+    ui = true
+[alias]
+    a = add
+    chunkyadd = add -patch
+    # via http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/
+    snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+    snapshots = !git stash list --grep snapshot
+
+    #via http://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
+    recent-branches = !git for-each-ref --count=5 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+
+    b = branch -v
+
+    c = commit -m
+    ca = commit -am
+    ci = commit ci
+    ammend = commit --amend
+
+    co = checkout
+    nb = checkout -nb
+
+    cp = cherry-pick -x
+
+    d = diff
+    dc = diff --cached
+    last = diff HEAD^
+
+    l = log --graph --date=short
+    changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
+    short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
+    simple = log --pretty=format:\" * %s\"
+
+    pl = pull
+
+    ps = push
+
+    rc = rebase --continue
+    rs = rebase --skip
+
+    unstage = reset HEAD
+    uncommit = reset --soft HEAD^
+    filelog = log -u
+    mt = mergetool
+
+    ss = stash
+    sl = stash list
+    sa = stash apply
+    sd = stash drop
+
+    s = status
+    st = status
+    stat = status
+
+    t = tag -n
+[mergetool]
+    prompt = false
+[mergetool "vimdiff"]
+    cmd="vim -c 'Gdiff' $MERGED"
+    keepbackup = true
+[merge]
+    summary = true
+    verbosity = 1
+    tool = vimdiff
+[branch]
+    autosetupmerge = true
+[user]
+	name = beny marel PAMBOU
+	email = benymarel@gmail.com
+[push]
+    default = tracking
+[core]
+    autocrlf = false
+    editor = vim
