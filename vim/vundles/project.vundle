@@ -1,0 +1,7 @@
+Bundle "jistr/vim-nerdtree-tabs.git"
+Bundle "scrooloose/nerdtree"
+Bundle "majutsushi/tagbar"
+Bundle "kien/ctrlp.vim"
+Bundle "szw/vim-ctrlspace"
+Bundle "pbrisbin/vim-mkdir"
+

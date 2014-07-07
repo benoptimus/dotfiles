@@ -1,0 +1,5 @@
+Bundle "bling/vim-airline"
+Bundle "edkolev/tmuxline.vim"
+Bundle "jby/tmux.vim.git"
+Bundle "chrisbra/Colorizer"
+Bundle "mkitt/tabline.vim"
