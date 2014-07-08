@@ -14,7 +14,7 @@
 
     c = commit -m
     ca = commit -am
-    ci = commit ci
+    ci = commit
     ammend = commit --amend
 
     co = checkout
@@ -65,10 +65,12 @@
 [branch]
     autosetupmerge = true
 [user]
-	name = beny marel PAMBOU
+	name = benoptimus
 	email = benymarel@gmail.com
 [push]
     default = tracking
 [core]
     autocrlf = false
     editor = vim
+[credential]
+	helper = osxkeychain
