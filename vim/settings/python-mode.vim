@@ -1,4 +1,15 @@
-" python-mode (used with jedi)
+"map <leader>g :call RopeGotoDefinition()<CR>
+"let ropevim_enable_shortcuts = 1
+"let g:pymode_rope_goto_def_newwin = "vnew"
+"let g:pymode_rope_extended_complete = 1
+"let g:pymode_breakpoint = 0
+"let g:pymode_syntax = 1
+"let g:pymode_syntax_builtin_objs = 0
+"let g:pymode_syntax_builtin_funcs = 0
+"map <Leader>b Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
+
+" python-mode
+" https://github.com/klen/python-mode
 let g:pymode_virtualenv=1 " Auto fix vim python paths if virtualenv enabled
 let g:pymode_folding=1  " Enable python folding
 let g:pymode_utils_whitespaces=0  " Do not autoremove unused whitespaces

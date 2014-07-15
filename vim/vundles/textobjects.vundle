@@ -2,4 +2,5 @@ Bundle "kana/vim-textobj-user"
 Bundle "kana/vim-textobj-entire"
 Bundle "kana/vim-textobj-datetime"
 Bundle "coderifous/textobj-word-column.vim"
+Bundle "Rykka/riv.vim"
 
