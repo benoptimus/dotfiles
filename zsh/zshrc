@@ -25,7 +25,3 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 source /usr/local/bin/virtualenvwrapper.sh
-
-eval "$(pyenv init -)"
-
-eval "$(pyenv virtualenv-init -)"
